@@ -6,9 +6,11 @@
   font-family: sans-serif;
   font-weight: 400;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 body {
-  background-color: whitesmoke;
+  background-color:  rgb(247, 220, 220);      
 }
 .grid {
   /* add correct code to place the grid elements 
@@ -16,11 +18,13 @@ body {
 
   flex-wrap: wrap;
   font-family: sans-serif;
+  display: flex;
 }
 
 .grid img {
   border: 2px solid black;
   border-radius: 50px;
+  
 }
 .origami {
   border-radius: 20px;
@@ -29,4 +33,8 @@ body {
 
   width: 310px;
   font-family: fantasy;
+  
+}
+.languages {
+  width: 300px;
 }
